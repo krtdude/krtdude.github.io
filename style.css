@@ -12,3 +12,7 @@ header h1{
 	margin: 0 auto;
 	background-color: #C0C5C1;
 }
+
+a:link {color: #50545D; text-decoration: none; }
+a:active {color: #EDF2D6; text-decoration: none; }
+a:visited {color: #6B6E5E; text-decoration: none; }
