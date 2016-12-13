@@ -1,0 +1,25 @@
+/*Practice CSS*/
+
+body {
+	background-color: #2A2D34;
+	color: #A0DDE6;
+}
+
+h1 {
+	font-family: Arial;
+	text-decoration: underline;
+}
+
+img {
+	width: 10%;
+	height: 15%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	color: #A0DDE6
+	list-style-type: none;
+}
