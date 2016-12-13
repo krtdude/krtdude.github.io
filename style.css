@@ -1,25 +1,14 @@
-/*Practice CSS*/
-
 body {
-	background-color: #2A2D34;
-	color: #A0DDE6;
+	background-color: #3F334D
 }
 
-h1 {
-	font-family: Arial;
-	text-decoration: underline;
+header h1{
+	font-family: 'Mirza', cursive;
+	color: #EAF0CE;
 }
 
-img {
-	width: 10%;
-	height: 15%;
-}
-
-a {
-	text-decoration: none;
-}
-
-ul li {
-	color: #A0DDE6
-	list-style-type: none;
+#container{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #C0C5C1;
 }
