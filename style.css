@@ -1,21 +1,21 @@
 body {
-	background-color: #3F334D
+	background-color: #000000
 }
 
 header h1{
 	font-family: 'Mirza', cursive;
-	color: #EAF0CE;
+	color: #5C5C5C;
 }
 
 #container {
 /*	width: 75%;*/
 	margin: 0 auto;
-	background-color: #C0C5C1;
+	background-color: #DAD2D8;
 }
 
-a:link {color: #50545D; text-decoration: none; }
-a:active {color: #EDF2D6; text-decoration: none; }
-a:visited {color: #6B6E5E; text-decoration: none; }
+a:link {color: #0F8B8D; text-decoration: none; }
+a:active {color: #D0D0D0; text-decoration: none; }
+a:visited {color: #0F8B8D; text-decoration: none; }
 
 .col-1, .col-2, .col-3, .col-4, 
 .col-5, .col-6, .col-7, .col-8, 
