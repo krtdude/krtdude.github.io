@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Practice</title>
+
+	<meta charset="utf-8">
+		
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="grid.css">
+
+</head>
+<body>
+
+	<div id="container">
+
+		<header class="row">
+
+			<h1 class="col-2"> Marco Aleman </h1>
+				
+			<nav class="col-8">
+
+				<ul>
+						
+					<li> <a href="index.html"> Home </a> </li>
+					<li> <a href="https://github.com/krtdude"> GitHub </a> </li>
+					<li> <a href="http://twitch.tv/krtdude"> Twitch Channel </a> </li>
+					<li> <a href="resume.html"> My Resume </a> </li>
+					<li> <a href="practice.html"> Practice Pages Here </a>
+						
+						<ul>
+						
+							<li> <a href="w1.html"> Week 1 </a> </li>
+							<li> <a href="w2.html"> Week 2 </a> </li>
+							<li> <a href="javapractice.html"> Javascript Practice </a></li>
+
+						</ul>
+					
+					</li>
+						
+				</ul>
+
+			</nav>
+
+		</header>
+
+		<main class="row">
+					
+			<div class="col-1">
+
+				<button onclick="alert('Why cant you listen')"> 
+
+					Do Not Click Me!
+
+				</button>
+						
+			</div>
+
+			<div id="name" class="col-1">
+
+				My name is Marco
+
+			</div>
+
+			<div class="col-1">
+
+				<button id="button"">
+							
+					Click Me
+
+				</button>
+
+			</div>
+
+			<div class="col-1" id="1stdiv">
+		
+				This is some text	
+
+			</div>
+
+			<div class="col-1">
+
+				<button id="2ndbutton">
+							
+					Let's append
+
+				</button>
+
+			</div>
+
+			<div id="2nddiv" class="col-1">
+						
+				This is text of 2nd div
+
+			</div>
+
+			<div class="col-1">
+
+				<button id="createemp">
+							
+					Let's create some text
+
+				</button>
+
+			</div>
+
+			<div id="emptydiv" class="col-1">
+						
+			</div>
+
+			<div class="col-1">
+
+				<div id="circle">
+
+				</div>
+						
+			</div>
+
+			<div class="col-1">
+
+				<input id="myinput" type="text" value="Type something"> 
+
+				</input>
+
+			</div>
+
+			<div class="col-1">
+
+				<button id="3rdbutton">
+							
+					Click Me
+
+				</button>
+
+			</div>
+
+			<div class="col-1" id="3rddiv">
+		
+				This is some text	
+
+			</div>
+
+			<script type="text/javascript">
+
+				var name=document.getElementById("myinput").value;
+
+			document.getElementById('button').onclick=function(){
+
+				document.getElementById('1stdiv').innerHTML="This is some new text after";
+			}
+
+			document.getElementById('2ndbutton').onclick=function(){
+
+				document.getElementById('2nddiv').innerHTML=document.getElementById('2nddiv').innerHTML + "This is great";
+			}
+			
+			document.getElementById('createemp').onclick=function(){
+
+				document.getElementById('emptydiv').innerHTML="<ul> <li> Apple </li> <li> Orange </li> </ul>";
+			}
+
+			document.getElementById('circle').onclick=function(){
+
+				document.getElementById('circle').style.display="none";
+			}
+
+			document.getElementById('3rdbutton').onclick=function(){
+				name=document.getElementById("myinput").value;
+
+				document.getElementById("3rddiv").innerHTML=name;
+			}
+			</script>
+
+										
+		</main>
+	</div>
+</body>
+</html>
